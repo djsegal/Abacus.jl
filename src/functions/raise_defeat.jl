@@ -20,7 +20,7 @@ function raise_defeat(cur_player::AbstractPlayer)
   evaljs(
     cur_player.game.scope,
     JSString("""
-      \$(".js-tetris-container").blur();
+      \$(".js-abacus-container").blur();
       \$(".js-splash-text h1").text("game over.")
       \$(".js-splash-text div").text("try again soon.")
     """)

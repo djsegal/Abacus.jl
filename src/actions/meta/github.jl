@@ -2,7 +2,7 @@ function github(cur_player::AbstractPlayer)
 
   cur_js = """
 
-    window.open("https://github.com/djsegal/Tetris.jl", "_blank");
+    window.open("https://github.com/djsegal/Abacus.jl", "_blank");
 
   """
 

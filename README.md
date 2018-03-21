@@ -1,8 +1,8 @@
-# Tetris
+# Abacus
 
-music by: [Ghost & Kozmos](https://soundcloud.com/the-ghost-that-haunts-your-house/ghost-kozmos-tetris-theme-electro-swing-remix)
+music by: [Ghost & Kozmos](https://soundcloud.com/the-ghost-that-haunts-your-house/ghost-kozmos-abacus-theme-electro-swing-remix)
 
-[![Build Status](https://travis-ci.com/djsegal/Tetris.jl.svg?token=6MoHrva8xz9sBJHXmzmz&branch=master)](https://travis-ci.com/djsegal/Tetris.jl)
+[![Build Status](https://travis-ci.com/djsegal/Abacus.jl.svg?token=6MoHrva8xz9sBJHXmzmz&branch=master)](https://travis-ci.com/djsegal/Abacus.jl)
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/djsegal/webio-binder/master?filepath=webio.ipynb)
 
 -----
@@ -14,14 +14,14 @@ note: must be using Python 2.x // :(
 1) enter this into a julia repl:
 
 ```julia
-> Pkg.clone("https://github.com/djsegal/Tetris.jl")
+> Pkg.clone("https://github.com/djsegal/Abacus.jl")
 > Pkg.build("WebIO")
 ```
 
-2) now you can play tetris in jupyter!
+2) now you can play abacus in jupyter!
 
 ```julia
-using Tetris
+using Abacus
 
 function foo()
   for cur_index in 99:-1:0
@@ -32,5 +32,5 @@ function foo()
   end
 end
 
-@tetris foo()
+@abacus foo()
 ```

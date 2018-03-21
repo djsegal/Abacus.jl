@@ -1,4 +1,4 @@
-module Tetris
+module Abacus
 
   using JSExpr
 
@@ -19,7 +19,7 @@ module Tetris
 
   include("setup.jl")
 
-  macro tetris(cur_expr::Expr)
+  macro abacus(cur_expr::Expr)
     cur_expr = quote
       setup()
 
@@ -35,6 +35,6 @@ module Tetris
     return cur_expr
   end
 
-  export @tetris
+  export @abacus
 
 end

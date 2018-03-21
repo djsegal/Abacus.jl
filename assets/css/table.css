@@ -1,28 +1,28 @@
-div.cs-main-area table.cs-tetris-table {
+div.cs-main-area table.cs-abacus-table {
   margin: 0 auto;
 }
 
-div.cs-side-bar table.cs-tetris-table {
+div.cs-side-bar table.cs-abacus-table {
   margin: 0;
 }
 
-div.cs-tetris-container div.cs-side-bar > table.cs-tetris-table:not(:last-child):first-of-type {
+div.cs-abacus-container div.cs-side-bar > table.cs-abacus-table:not(:last-child):first-of-type {
   margin-bottom: 6vmin;
 }
 
-div.cs-side-bar > table.cs-tetris-table:not(:last-child) {
+div.cs-side-bar > table.cs-abacus-table:not(:last-child) {
   margin-bottom: 3vmin;
 }
 
-div.cs-side-bar > table.cs-tetris-table:last-child {
+div.cs-side-bar > table.cs-abacus-table:last-child {
   margin-bottom: 6vmin;
 }
 
-.cs-tetris-table *:hover {
+.cs-abacus-table *:hover {
   background: initial;
 }
 
-.cs-tetris-table td {
+.cs-abacus-table td {
   width: 3vmin;
   height: 3vmin;
 }

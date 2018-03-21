@@ -2,13 +2,13 @@ function music(cur_player::AbstractPlayer)
 
   cur_js = """
 
-    if (typeof tetrisMusic !== 'undefined') {
+    if (typeof abacusMusic !== 'undefined') {
 
-      if ( tetrisMusic.playing() ) {
-        tetrisMusic.pause();
+      if ( abacusMusic.playing() ) {
+        abacusMusic.pause();
         \$(".js-music-button").closest("a").removeClass("cs-active");
       } else {
-        tetrisMusic.play();
+        abacusMusic.play();
         \$(".js-music-button").closest("a").addClass("cs-active");
       }
 

@@ -1,5 +1,5 @@
-using Tetris
+using Abacus
 using Base.Test
 
-@test isdefined(Main, Symbol("@tetris"))
-@test isdefined(Tetris, :setup)
+@test isdefined(Main, Symbol("@abacus"))
+@test isdefined(Abacus, :setup)

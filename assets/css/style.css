@@ -1,12 +1,12 @@
-div.output_area  div.cs-tetris-container:focus {
+div.output_area  div.cs-abacus-container:focus {
   outline: none;
 }
 
-div.output_area  div.cs-tetris-container {
+div.output_area  div.cs-abacus-container {
   position: relative;
 }
 
-div.cs-tetris-container div.cs-col {
+div.cs-abacus-container div.cs-col {
   margin: 2.5vmin 0;
   padding: 0 2.5vmin;
 }

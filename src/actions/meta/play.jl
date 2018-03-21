@@ -11,13 +11,13 @@ function play(cur_player::AbstractPlayer)
     cur_player.state.has_lost = false
 
     cur_js *= """
-      \$(".js-tetris-container td").removeClass();
+      \$(".js-abacus-container td").removeClass();
       \$(".js-level-text").text("Level $(cur_player.level)");
       \$(".js-score-text").text("$(lpad(cur_player.score, 8, "0"))");
 
       setTimeout(
         function() {
-          \$(".js-splash-text h1").text("tetris.");
+          \$(".js-splash-text h1").text("abacus.");
           \$(".js-splash-text div").text("double-click to play.");
         },
         500
@@ -32,7 +32,7 @@ function play(cur_player::AbstractPlayer)
   drop_clock(cur_player)
 
   cur_js *= """
-    \$(".js-tetris-container").removeClass("cs-has-splash");
+    \$(".js-abacus-container").removeClass("cs-has-splash");
     \$(".js-splash-screen").addClass("cs-disappear");
   """
 

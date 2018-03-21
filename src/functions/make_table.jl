@@ -38,7 +38,7 @@ function make_table(cur_rows::Int, cur_cols::Int, cur_hidden_rows::Int=0; class_
   cur_table = Node(
     :table,
     cur_row_array...,
-    attributes=Dict(:class => "cs-tetris-table z-depth-1-half $(class_names)")
+    attributes=Dict(:class => "cs-abacus-table z-depth-1-half $(class_names)")
   )
 
   cur_table

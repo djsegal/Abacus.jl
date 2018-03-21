@@ -98,7 +98,7 @@ function render(cur_observer::Observable, cur_grid::AbstractGrid)
     ),
     dom"div"(
       dom"div"(
-        dom"h1"("tetris."),
+        dom"h1"("abacus."),
         dom"div"("double-click to play."),
         attributes=Dict(:class => "cs-splash-text js-splash-text")
       ),
@@ -109,7 +109,7 @@ function render(cur_observer::Observable, cur_grid::AbstractGrid)
       ),
       attributes=Dict(:class => "cs-splash-screen js-splash-screen cs-blue-grey")
     ),
-    attributes=Dict(:class => "js-tetris-container cs-tetris-container container-fluid cs-has-splash"),
+    attributes=Dict(:class => "js-abacus-container cs-abacus-container container-fluid cs-has-splash"),
     events=cur_events
   )
 

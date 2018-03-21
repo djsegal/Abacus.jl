@@ -9,7 +9,7 @@ end
 
 function make_piece!(cur_container::AbstractContainer, piece_char::Char, cur_association::Symbol=:pieces)
   piece_func = getfield(
-    Tetris,
+    Abacus,
     Symbol("$(piece_char)_piece")
   )
 
